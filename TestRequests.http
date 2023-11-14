@@ -3,19 +3,23 @@ POST http://localhost:3000/auth
 ###
 
 GET http://localhost:3000/balance
-Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNvZGVfY2hhbGxlbmdlIiwiaWF0IjoxNjk4OTIzMjc0LCJleHAiOjE2OTg5MjM1NzR9.awFpHr08AXNiPNlY04Oup-_TacNXxteGkmNb1SpKHQM
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNvZGVfY2hhbGxlbmdlIiwiaWF0IjoxNjk5OTQyNTMxLCJleHAiOjE2OTk5NDI4MzF9.zl5tde1WozNm31AFgUdDZYtKlHthfhVBAsh-yo6N14Q
 
 ###
 
 Post http://localhost:3000/withdraw
-Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNvZGVfY2hhbGxlbmdlIiwiaWF0IjoxNjk4OTIzMjc0LCJleHAiOjE2OTg5MjM1NzR9.awFpHr08AXNiPNlY04Oup-_TacNXxteGkmNb1SpKHQM
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNvZGVfY2hhbGxlbmdlIiwiaWF0IjoxNjk5OTQyNTMxLCJleHAiOjE2OTk5NDI4MzF9.zl5tde1WozNm31AFgUdDZYtKlHthfhVBAsh-yo6N14Q
+content-type: application/json
 
+{
+    "amount": 75.0
+}
 ###
 
 Post http://localhost:3000/deposit
-Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNvZGVfY2hhbGxlbmdlIiwiaWF0IjoxNjk4OTIzMTM1LCJleHAiOjE2OTg5MjM0MzV9.tzBZz9N3K4Pkq0YcgVx5bkQWYY90PqS6n1q9ag6Lyyw
-
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNvZGVfY2hhbGxlbmdlIiwiaWF0IjoxNjk5OTQyNTMxLCJleHAiOjE2OTk5NDI4MzF9.zl5tde1WozNm31AFgUdDZYtKlHthfhVBAsh-yo6N14Q
 content-type: application/json
+
 {
-    "amount": 72
+    "amount": 55
 }
